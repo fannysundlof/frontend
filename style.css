@@ -4,13 +4,24 @@
     padding: 0;
 }
 header{
-    background: url(horizon.jpg);
+    background: url(auto.jpg);
+}
+body{
+    font-family: 'Arima Madurai', cursive;
+}
+nav{
+    display: flex;
+    justify-content: center;
 }
 ul{
     height: 20px;
     width: 100%;
     background: lightgray;
     text-align: center;
+    text-decoration: none;
+    color: red;
+    list-style: none;
+    font-size: 1,5rem;
 }
 .container{
     background: grey;
@@ -20,12 +31,4 @@ ul{
     width: 80%;
     height: 100%;
     background:black;
-}
-nav{
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    color: red;
-    list-style: none;
-    font-size: 5rem;
 }

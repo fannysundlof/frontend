@@ -7,17 +7,34 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:100&display=swap" rel="stylesheet">
 </head>
 <body>
+        <header class="header">
+            <nav class="navbar">
+                <a href="">logga</a>
+                <li class="item">Tjänster</li>
+                <li class="item">Om oss</li>
+                <li class="item">Kontakt</li>
+                <li class="item">Hem</li>
+            </nav>
+            <div class="headingstyle">
+                <h1 class="heading">Fannys sida</h1>
+            </div>
+            <div class="button">
+        <button id="btn"> <a href="">Kör</a> </button>
+        </div>
+            </header>
     <div class="gridContainer">
-        <div class="griditems animated infinite zoomIn delay-2s">1</div>
-        <div class="griditems">2</div>
-        <div class="griditems animated infinite zoomIn delay-2s">3</div>
-        <div class="griditems">4</div>
+        <div class="griditems animated start zoomIn delay-2s">1</div>
+        <div class="griditems grid2">Bild</div>
+        <div class="griditems animated start zoomIn delay-2s">3</div>
+        <div class="griditems grid4">4</div>
         <div class="griditems">5</div>
-        <div class="griditems">6</div>
+        <div class="griditems grid6">6</div>
     </div>
-    <div>
+
+    <div class="grid">
         <img src="auto.jpg" alt="">
         <img src="blur.jpg" alt="">
         <img src="auto.jpg" alt="">
@@ -28,5 +45,12 @@
         <img src="blur.jpg" alt="">
         <img src="auto.jpg" alt="">
     </div>
+
+    <form action="">
+        <input type="text" placeholder="Namn" />
+        <input type="text" placeholder="Mail" />
+        <input type="text" placeholder="Lösenord" />
+        <input type="text" placeholder="Upprepa Lösenord" />
+</form>
 </body>
 </html>
