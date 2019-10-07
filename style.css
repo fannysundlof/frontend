@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: url(horizon.jpg);
+}
+ul{
+    height: 20px;
+    width: 100%;
+    background: lightgray;
+    text-align: center;
+}
+.container{
+    background: grey;
+    height: 100%;
+}
+.main{
+    width: 80%;
+    height: 100%;
+    background:black;
+}
+nav{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    list-style: none;
+    font-size: 5rem;
+}

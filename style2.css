@@ -1,0 +1,16 @@
+.gridContainer{
+    height: 500px;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+}
+.griditems{
+    background: pink;
+    height: 50%;
+    border: 2px solid red;
+}
+.grid{
+    display: grid;
+    grid-gap: 10px;
+}
