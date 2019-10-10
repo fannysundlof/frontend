@@ -1,59 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="style2.css">
-    <link href="https://fonts.googleapis.com/css?family=Advent+Pro|Arima+Madurai&display=swap" rel="stylesheet"> 
-</head>
-<body>
-        <header class="header">
-            <nav class="navbar">
-                <li class="item">Produkter</li>
-                <li class="item">Om oss</li>
-                <li class="item">Kontakt</li>
-                <li class="item">Tillbaka</li>
-            </nav>
-        <div class="container">
-            <div class="logo"></div>
-            <div class="headingstyle">
-                <h1 class="heading">HärligaLurar.se</h1>
-                <h3>Vi hjälper dig hitta bra lurar!</h3>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Inlämning</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis|Quicksand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index2.html">Hem</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#!"
+                >Produkter<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <!--<div class="dropdown">
+                <span>Produkter</span>
+              <div class="dropdown-content">
+            <li>Lurar</li>
+          </div>
+          </div> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Om oss</a>
+            </li>
+          </ul>
         </div>
-            <div class="button animated start zoomIn -2s">
-        <button class="btn"> <a href="">Sök</a> </button>
+      </nav>
+
+      <div class="container">
+        <div class="logo"></div>
+        <div class="headingstyle">
+          <h1 class="heading">HärligaLurar.se</h1>
+          <h3>Vi hjälper dig hitta bra lurar!</h3>
         </div>
-            </header>
+      </div>
+      <div class="button animated start zoomIn -2s">
+        <button class="btn"><a href="">Sök</a></button>
+      </div>
+    </header>
+
     <div class="gridContainer">
-        <div class="griditems">1</div>
-        <div class="griditems grid2">Bild</div>
-        <div class="griditems">3</div>
-        <div class="griditems grid4">4</div>
-        <div class="griditems">5</div>
-        <div class="griditems grid6">6</div>
+      <div class="griditems">1</div>
+      <div class="griditems grid2"></div>
+      <div class="griditems">3</div>
+      <div class="griditems grid4">4</div>
+      <div class="griditems">5</div>
+      <div class="griditems grid6">6</div>
     </div>
 
     <div class="grid">
-        <img src="auto.jpg" alt="">
-        <img src="blur.jpg" alt="">
-        <img src="auto.jpg" alt="">
-        <img src="blur.jpg" alt="">
-        <img src="auto.jpg" alt="">
-        <img src="blur.jpg" alt="">
-        <img src="auto.jpg" alt="">
-        <img src="blur.jpg" alt="">
-        <img src="auto.jpg" alt="">
+      <img src="auto.jpg" alt="" />
+      <img src="blur.jpg" alt="" />
+      <img src="auto.jpg" alt="" />
+      <img src="blur.jpg" alt="" />
+      <img src="auto.jpg" alt="" />
+      <img src="blur.jpg" alt="" />
+      <img src="auto.jpg" alt="" />
+      <img src="blur.jpg" alt="" />
+      <img src="auto.jpg" alt="" />
     </div>
 
     <form action="">
-        <input type="text" placeholder="Namn" />
-        <input type="text" placeholder="Mail" />
-        <input type="text" placeholder="Lösenord" />
-        <input type="text" placeholder="Upprepa Lösenord" />
-</form>
-</body>
+      <input type="text" placeholder="Namn" />
+      <input type="text" placeholder="Mail" />
+      <input type="text" placeholder="Lösenord" />
+      <input type="text" placeholder="Upprepa Lösenord" />
+    </form>
+  </body>
 </html>
