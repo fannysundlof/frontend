@@ -33,16 +33,21 @@
           data-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02"
           aria-expanded="false"
-          aria-label="Toggle navigation">
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="#">
-          <img src="icon.jpg" alt="logo" style="width:40px;"></a>
+          <img class="logo" src="bilder/icon.jpg" alt="logo" style="width:40px;"
+        /></a>
+
         <a class="navbar-brand" href="index2.html">Härligalurar.se</a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-md-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#!">Produkter<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href=""
+                >Produkter<span class="sr-only">(current)</span></a
+              >
             </li>
             <!--<div class="dropdown">
                 <span>Produkter</span>
@@ -57,18 +62,55 @@
         </div>
       </nav>
     </header>
-      <div class="container">
-        <div class="headingstyle">
+
+    <div class="container">
+      <div class="headingstyle"></div>
+    </div>
+    <div class="headingh2">
+      <h2>Produkter</h2>
+    </div>
+
+    <div class="mellanrum"></div>
+
+    <div class="produkter">
+      <img class="bild" src="bilder/headphones1.jpg" alt="" />
+      <img class="bild" src="bilder/headphones2.jpg" alt="" />
+      <img class="bild" src="bilder/headphones3.jpg" alt="" />
+    </div>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="bilder/headphones4.jpg" alt="" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="bilder/headphones5.jpg" alt="" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="bilder/headphones6.jpg" alt="" width="1100" height="500">
         </div>
       </div>
-     
-    <div class="produkter">
-      <img src="headphones1.jpg" alt="">
-      <img src="headphones2.jpg" alt="">
-      <img src="headphones3.jpg" alt="">
-      <img src="headphones4.jpg" alt="">
-      <img src="headphones5.jpg" alt="">
-      <img src="headphones6.jpg" alt="">
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+    <div class="omoss">
+      <div>
+    <img src="bilder/clock.jpg" alt="" width="1100" height="500">
+      </div>
+      <div class="text">
+        <h3>Om oss</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi inventore totam explicabo fugit dolorem amet, eius consequatur nisi vero.</p>
+      </div>
     </div>
 
     <div class="gridContainer">
@@ -78,18 +120,6 @@
       <div class="griditems grid4">4</div>
       <div class="griditems">5</div>
       <div class="griditems grid6">6</div>
-    </div>
-
-    <div class="grid">
-      <img src="auto.jpg" alt="" />
-      <img src="blur.jpg" alt="" />
-      <img src="auto.jpg" alt="" />
-      <img src="blur.jpg" alt="" />
-      <img src="auto.jpg" alt="" />
-      <img src="blur.jpg" alt="" />
-      <img src="auto.jpg" alt="" />
-      <img src="blur.jpg" alt="" />
-      <img src="auto.jpg" alt="" />
     </div>
 
     <form action="">
