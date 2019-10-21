@@ -12,7 +12,6 @@ html {
 }
 body {
   font-family: "Quicksand", sans-serif;
-  
 }
 .header {
   height: 100vh;
@@ -37,25 +36,22 @@ h2 {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  text-shadow: 1px 0 0.2px grey;
 }
 #produkter {
-background-color: pink;
-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-
+  background-color: pink;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 .produkter {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
 }
 .probild {
-    width: 20rem;
-    height: 13rem;
-    opacity: 0.9;
-    margin-bottom: 4rem;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  width: 20rem;
+  height: 13rem;
+  opacity: 0.9;
+  margin-bottom: 4rem;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
 }
 .probild:hover {
   opacity: 1;
@@ -63,7 +59,6 @@ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 .persinfo {
   display: flex;
   flex-direction: row;
-  
 }
 .card-title,
 .card-text {
@@ -72,29 +67,24 @@ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 .grid {
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
 }
-  #kontakt {
-  height: 60vh;
+#kontakt {
   background: url(bilder/blank-space.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-color: #cfeee9;
-
 }
 form {
   display: flex;
   flex-direction: column;
   padding: 15px;
-  
 }
 input[type="text"] {
   width: 15rem;
   padding: 12px 20px;
   margin: 8px 0;
- 
 }
 input[type="email"] {
   width: 15rem;
@@ -112,7 +102,6 @@ input[type="button"] {
 .footer {
   width: 100%;
   background-color: #cfeee9;
-  
 }
 .omoss {
   display: grid;
@@ -150,20 +139,19 @@ a {
 .adress {
   text-align: center;
 }
-@media screen and (max-width: 1030px){
+@media screen and (max-width: 1030px) {
   .produkter {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .persinfo {
-      display: flex;
-      flex-direction: column;
-      align-items: space-evenly;
-  
-    }
-    .probild {
-      width: 20rem;
-      height: 13rem;
-      margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+  .persinfo {
+    display: flex;
+    flex-direction: column;
+  }
+  .probild {
+    width: 20rem;
+    height: 13rem;
+    margin: 1rem;
+  }
+}

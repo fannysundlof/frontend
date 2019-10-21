@@ -7,27 +7,29 @@
     <title>Inlämning</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    />
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link rel="stylesheet" href="style2.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Dosis|Quicksand&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet"/>
   </head>
+
+  
   <!-- Inlämnings uppgift i HTML/CSS av Fanny Sundlöf Bäckström
   Jag har gjort en webbshop för hörlurar som heter "HärligaLurar.se."
   Jag har delat upp sidan i 5 sektioner. 
-  Den första är sektionen "Meny + Logga". Här finns min responsiva top meny som blir en hamburgermeny vid width 750px.
--->
+  Den första är sektionen "Meny + Logga". Här finns min responsiva top meny som blir en hamburgermeny vid width 750px. Jag valde bootstrap som grund i navigationen.
+  I den andra sektionen "Tjänster/produkter" finns det 3st responsiva bilder på några av produkterna webshoppen säljer. Dessa ändras med flex från row till column vid breakpoint 1030px.
+  I den tredje sektionen "Personal" har jag använt bootstrap för att göra fina porträtt på personalen som jobbar på företaget.
+  I den fjärde sektionen "Kontakt m. formulär" finns ett formular som ska kunna använands för att maila företaget, denna är stylad med flex.
+  Till sist har jag gjort en footer med företagsinformation och länkar till sociala medier och en till meny. Sektionen heter "Om oss + footer m. adress, sociala media, copyright"-->
+
+
   <!-- Meny + Logga-->
   <body>
     <header class="header" id="top">
@@ -39,20 +41,16 @@
           data-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="#top">
-          <img class="logo" src="bilder/icon.jpg" alt="logo" style="width:40px;"
-        /></a>
+          <img class="logo" src="bilder/icon.jpg" alt="logo" style="width:40px;"/></a>
         <a class="navbar-brand" href="index2.html">HÄRLIGALURAR.SE</a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-md-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#produkter"
-                >Produkter<span class="sr-only">(current)</span></a
-              >
+              <a class="nav-link" href="#produkter">Produkter<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#personal">Personal</a>
@@ -65,7 +63,7 @@
       </nav>
     </header>
 
-    <!-- Tjänster-->
+    <!-- Tjänster/produkter-->
     <div id="produkter">
       <h2>Produkter</h2>
       <div class="produkter">
@@ -107,12 +105,11 @@
       </div>
     </div>
 
-    <!-- Kontakta oss-->
-
+    <!-- Kontakt m. formulär-->
     <div id="kontakt">
       <h2>Kontakta oss</h2>
       <div class="grid">
-        <form action="">
+        <form>
           <h4>Maila oss!</h4>
           <input type="text" placeholder="Namn" />
           <input type="email" placeholder="Mail" />
@@ -129,7 +126,6 @@
     </div>
 
     <!-- Om oss + footer m. adress, sociala media, copyright-->
-
     <footer class="footer">
       <div>
         <h2>Om oss</h2>
@@ -156,6 +152,7 @@
           <p class="adress">
             Härligalurar.se Tulegatan 41 113 53 Stockholm
           </p>
+          <p>&copy; 2019</p>
         </div>
       </div>
     </footer>
