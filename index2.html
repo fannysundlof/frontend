@@ -25,7 +25,7 @@
   </head>
   <!-- Meny + logga-->
   <body>
-    <header class="header">
+    <header class="header" id="top" >
       <nav id="navbar" class="navbar navbar-expand-md navbar-light">
         <button
           class="navbar-toggler"
@@ -38,128 +38,161 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">
-          <img class="logo" src="bilder/icon.jpg" alt="logo" style="width:40px;"
-        /></a>
-
-        <a class="navbar-brand" href="index2.html">Härligalurar.se</a>
+        <a class="navbar-brand" href="#top">
+          <img class="logo" src="bilder/icon.jpg" alt="logo" style="width:40px;"/></a>
+        <a class="navbar-brand" href="index2.html">HÄRLIGALURAR.SE</a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-md-0">
             <li class="nav-item active">
-              <a class="nav-link" href="">Produkter<span class="sr-only">(current)</span></a
-              >
+              <a class="nav-link" href="#produkter"
+                >Produkter<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#!">Personal</a>
+              <a class="nav-link" href="#personal">Personal</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#!">Kontakta oss</a>
-              </li>
+              <a class="nav-link" href="#kontakt">Kontakta oss</a>
+            </li>
           </ul>
         </div>
       </nav>
     </header>
-    <div class="container">
-      <div class="headingstyle"></div>
-    </div>
+   
 
     <!-- Tjänster-->
-    <div id="prod" >
-    <div class="headingh2">
-      <h2>Produkter</h2>
-    </div>
-
-    <div class="produkter">
-      <img class="probild" src="bilder/headphones1.jpg" alt="" />
-      <img class="probild" src="bilder/headphones2.jpg" alt="" />
-      <img class="probild" src="bilder/headphones3.jpg" alt="" />
-    </div>
-
-    <div id="demo" class="carousel slide" data-ride="carousel">
-      <ul class="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" data-slide-to="1"></li>
-        <li data-target="#demo" data-slide-to="2"></li>
-      </ul>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="bilder/headphones4.jpg" alt="" width="1100" height="500" />
-        </div>
-        <div class="carousel-item">
-          <img src="bilder/headphones5.jpg" alt="" width="1100" height="500" />
-        </div>
-        <div class="carousel-item">
-          <img src="bilder/headphones6.jpg" alt="" width="1100" height="500" />
-        </div>
+    <div id="produkter">
+      <div class="headingh2">
+        <h2>Produkter</h2>
       </div>
-      <a class="carousel-control-prev" href="#demo" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#demo" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
+
+      <div class="produkter">
+        <img class="probild" src="bilder/headphones1.jpg" alt="Hörlurar" />
+        <img class="probild" src="bilder/headphones2.jpg" alt="Hörlurar" />
+        <img class="probild" src="bilder/headphones3.jpg" alt="Hörlurar" />
+      </div>
+
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="bilder/headphones4.jpg"
+              alt="Hörlurar"
+              width="1100"
+              height="500"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="bilder/headphones5.jpg"
+              alt="Hörlurar"
+              width="1100"
+              height="500"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="bilder/headphones6.jpg"
+              alt="Hörlurar"
+              width="1100"
+              height="500"
+            />
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
     </div>
-  </div>
 
     <!-- Personal-->
-    <div class="headingh2">
-        <h2>Personal</h2>
-      </div>
+    <div id="personal" class="headingh2">
+      <h2>Personal</h2>
+    </div>
     <div class="persinfo">
-    <div class="card" style="width:500px height: 500px;">
-        <img class="card-img-top" src="bilder/Erika.jpg" alt="Erika">
+      <div class="card" style="width:500px">
+        <img class="card-img-top" src="bilder/Erika.jpg" alt="Erika" />
         <div class="card-img-overlay">
-          <h4 class="card-title">Erika - CEO</h4>
-          <p class="card-text">Some example text.</p>
+          <h4 class="card-title">Erika - VD</h4>
+          <p class="card-text">Erika startade Härligalurar.se för 2 år sedan.</p>
         </div>
       </div>
-      <div class="card" style="width:500px height:800px">
-          <img class="card-img-top" src="bilder/Anders.jpg" alt="Anders">
-          <div class="card-img-overlay">
-            <h4 class="card-title">Anders - PR</h4>
-            <p class="card-text">Some example text.</p>
-          </div>
+      <div class="card" style="width:500px">
+        <img class="card-img-top" src="bilder/Anders.jpg" alt="Anders" />
+        <div class="card-img-overlay">
+          <h4 class="card-title">Anders - PR</h4>
+          <p class="card-text">Anders sköter all markandsföring.</p>
         </div>
-        <div class="card" style="width:500px height:800px">
-            <img class="card-img-top" src="bilder/Malin.jpg" alt="Malin">
-            <div class="card-img-overlay">
-              <h4 class="card-title">Malin - Order</h4>
-              <p class="card-text">Some example text.</p>
-            </div>
-          </div>
       </div>
+      <div class="card" style="width:500px">
+        <img class="card-img-top" src="bilder/Malin.jpg" alt="Malin" />
+        <div class="card-img-overlay">
+          <h4 class="card-title">Malin - Order</h4>
+          <p class="card-text">Malin ser till att din order packas och skickas.</p>
+        </div>
+      </div>
+    </div>
 
     <!-- Kontakta oss-->
-
-    <div class="headingh2">
-        <h2>Kontakta oss</h2>
+  
+    <div id="kontakt" class="headingh2">
+      <h2>Kontakta oss</h2>
     </div>
+
+  <div class="grid">
     <div class="kontakt">
-      <div class="kont-text">
-        <h6>Maila oss</h6>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quis aspernatur odit libero molestiae consequatur ullam harum eum molestias expedita, dicta maxime numquam eos corrupti repudiandae quo ex distinctio natus!</p>
-      </div>
-    </div>
-<form action="">
-  <input type="text" placeholder="Namn">
-  <input type="text" placeholder="Mail">
-  <textarea name="Meddelande" id="med" cols="10" rows="5"></textarea>
-  <input type="button" value="Skicka">
-</form>
-
-    <!-- Om oss + footer m. adress, sociala media, copyright-->
-    <div class="omoss">
-      <div>
-        <img src="bilder/clock.jpg" alt="" width="1100" height="500" />
-      </div>
-      <div class="text">
-        <h3>Om oss</h3>
+      <div class="kontext">
+        <h4>Maila oss</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          modi inventore totam explicabo fugit dolorem amet, eius consequatur
-          nisi vero.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quis
+          aspernatur odit libero molestiae consequatur ullam harum eum molestias
+          expedita, dicta maxime numquam eos corrupti repudiandae quo ex
+          distinctio natus!
         </p>
       </div>
     </div>
+    <form action="">
+      <input type="text" placeholder="Namn" />
+      <input type="email" placeholder="Mail" />
+      <textarea name="Meddelande" id="med" cols="3" rows="3"></textarea>
+      <input type="button" value="Skicka" />
+    </form>
+  </div>
+
+    <!-- Om oss + footer m. adress, sociala media, copyright-->
+
+    <footer class="footer">
+      <div class="h3">
+        <h3>Om oss</h3>
+      </div>
+      <div class="omoss">
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, aspernatur, excepturi, maiores vitae quasi vel sit reprehenderit quas dolorum aperiam ex vero aliquam perferendis. Error harum tenetur enim quia, ea earum doloribus tempora rem non autem! Repudiandae corporis harum vitae.
+          </p>
+          <img class="bild" src="bilder/clock.jpg" alt="">
+    <ul class="meny">
+      <li><a href="#personal">Personal</a> </li>
+      <li><a href="#produkter">Produkter</a></li>
+      <li><a href="#">Villkor</a></li>
+      <li><a href="#">Retur</a></li>
+    </ul>
+    <ul class="socialmedia">
+      <li><i class="fab fa-facebook-square fa-2x"></i></li>
+      <li><i class="fab fa-instagram fa-2x"></i></li>
+      <li><i class="fab fa-twitter-square fa-2x"></i></li>
+      <li><i class="fas fa-hashtag fa-1x"></i>Härligalurar</li>
+    </ul>
+  </div>
+  <span class="copyright">
+    <p> <i class="far fa-copyright fa-2x"></i> 2019</p>
+  </span>
+    </footer>
   </body>
 </html>
